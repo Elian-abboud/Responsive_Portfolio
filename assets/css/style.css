@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color:210;
+  --hue-color: 210;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340 - red 2*/
 
   /* HSL color mode */
@@ -149,6 +149,38 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+}
+
+/* Add some basic styling to the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px;
+}
+
+/* Style for table headers */
+th {
+  color: #0b4bba;
+  font-weight: bold;
+}
+
+/* Style for alternating row colors */
+
+
+/* Style for table cells */
+td {
+  padding: 8px;
+}
+
+/* Style for section title */
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+/* Add some space below the section title */
+section {
+  margin-bottom: 20px;
 }
 
 .section__subtitle {
@@ -717,7 +749,7 @@ img {
   right: -0.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
+.swiper-container-horizontal>.swiper-pagination-bullets {
   bottom: -2.5rem;
 }
 
@@ -1201,6 +1233,7 @@ footer .footer__social a:hover {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
+
   .header,
   .main,
   .footer__container {
@@ -1239,7 +1272,7 @@ footer .footer__social a:hover {
     right: -3.5rem;
   }
 
-  .swiper-container-horizontal > .swiper-pagination-bullets {
+  .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: -4.5rem;
   }
 
